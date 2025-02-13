@@ -1,70 +1,65 @@
-# Quiz_Game_in_Java
-This project is an interactive quiz game implemented in Java. It offers multiple-choice questions, tracks the player's score, and provides feedback after each question for an engaging learning experience.
+# Interactive Quiz Game
 
-Features
+## Overview
+The **Interactive Quiz Game** is a fun and educational application developed in **Java**, offering multiple-choice questions across various topics to test and enhance users' knowledge.
 
-Multiple-choice questions.
+## Features
+✅ **Multiple-Choice Questions** – Offers a variety of topics and questions.  
+✅ **Scoring System** – Keeps track of correct answers and final scores.  
+✅ **Timer Support** – Adds a countdown timer for each question.  
+✅ **User-Friendly Interface** – Intuitive and engaging UI for a seamless experience.  
+✅ **Instant Feedback** – Displays correct answers and explanations after each question.
 
-Score tracking throughout the quiz.
+## Tech Stack
+- **Language:** Java
+- **IDE:** IntelliJ IDEA / Eclipse
+- **GUI Framework:** Swing / JavaFX
 
-User-friendly interface via command-line input.
+## Installation
 
-Immediate feedback after each question.
+### **Prerequisites**
+- Java 8+
+- IDE for Java development (IntelliJ IDEA/Eclipse)
 
-Final score display at the end.
+### **Steps to Install and Run**
 
-Prerequisites
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/Interactive-Quiz-Game.git
+   cd Interactive-Quiz-Game
+   ```
 
-Java Development Kit (JDK) version 8 or higher.
+2. **Open the Project in IDE:**
+   - Open IntelliJ IDEA/Eclipse and import the project.
 
-IntelliJ IDEA or any Java-supported IDE.
+3. **Run the Application:**
+   - Locate the main class `QuizGame.java`.
+   - Run the file to start the quiz.
 
-How to Run
+## Usage
+1. Launch the application.
+2. Select a quiz topic.
+3. Answer multiple-choice questions within the time limit.
+4. View your score and correct answers at the end.
 
-Clone the repository:
+## Code Structure
+| File | Description |
+|------|-------------|
+| `QuizGame.java` | Main logic and GUI implementation |
+| `Question.java` | Defines the structure of questions and answers |
+| `Score.java` | Handles scoring logic and display |
 
-git clone https://github.com/yourusername/Java-Quiz-Game.git
+## Contributing
+We welcome contributions! To contribute:
+1. Fork the repository
+2. Create a new branch (`feature-xyz`)
+3. Commit your changes
+4. Push to your fork and submit a Pull Request
 
-Navigate to the project directory:
+## Contact
+For any questions or feedback, reach out to:
+- **Email:** your-samu6aai@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](www.linkedin.com/in/samruddhi-gore-b621242b0)
 
-cd Java-Quiz-Game
-
-Compile the code:
-
-javac QuizGame.java
-
-Run the game:
-
-java QuizGame
-
-Code Structure
-
-QuizGame.java: Main class with logic for question display, user input, score tracking, and result output.
-
-Sample Output
-
-Question 1: What is the capital of France?
-A) Berlin
-B) Madrid
-C) Paris
-D) Rome
-Enter your choice: C
-Correct!
-...
-Your final score is 4/5.
-
-Contributing
-
-Pull requests are welcome! Open an issue to discuss changes before making them.
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
-
-Author: Samruddhi Gore
-
-Email: samu6aai@gmail.com
-
-LinkedIn: www.linkedin.com/in/samruddhi-gore-b621242b0
+---
+🧠 **Interactive Quiz Game – Learn, Play, and Challenge Yourself!**
